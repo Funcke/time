@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "weatherify",
+  "description": "This extension displays time and weather on every new tab",
+  "version": "1.0",
+  "chrome_url_overrides" : {
+    "newtab": "myPage.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
