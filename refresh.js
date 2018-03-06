@@ -16,7 +16,7 @@ function refresh(){
         
     if(currentdate.getHours() >=8 && currentdate.getHours() <= 16){
         document.body.style.background = 'url("jkbOTFK.jpg")';
-        document.getElementById('city').innerHTML = 'Hey! How are your?';
+        document.getElementById('city').innerHTML = 'Hey! How are you?';
     }
         
     if(currentdate.getHours() >=17 && currentdate.getHours() < 19) {
